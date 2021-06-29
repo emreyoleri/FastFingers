@@ -21,7 +21,12 @@ export const Info = (props) => {
           </p>
           <p>Testimizde büyük-küçük harf ayrımı yapılmaz.</p>
         </div>
-        <div className="card-footer">{props.challenge}</div>
+        <div
+          className="card-footer rounded-2  "
+          style={{ height: "auto", fontSize: "20px", padding: "40px 10px" }}
+        >
+          {props.challenge}
+        </div>
         {/* girilecek değer geliyor. */}
       </div>
     </div>
